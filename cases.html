@@ -71,6 +71,7 @@ function loadFiles() {
         link.href = file.data;
         link.textContent = file.name;
         link.target = '_blank';
+        link.download = file.name;
         fileList.appendChild(link);
     });
 }
