@@ -1,20 +1,24 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFD700; /* Government yellow */
+    color: #000;
+    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    padding: 20px;
-    border-bottom: 2px solid red;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
 }
 
 h1 {
-    color: red;
-    text-shadow: 0 0 10px red;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 .button-container {
@@ -25,16 +29,14 @@ h1 {
     display: inline-block;
     margin: 15px;
     padding: 15px 30px;
-    background-color: #111;
-    color: red;
-    border: 2px solid red;
+    background-color: #89CFF0; /* Baby blue */
+    color: #000;
+    border: 2px solid #000;
     text-decoration: none;
     font-size: 18px;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 .nav-button:hover {
-    background-color: red;
-    color: #000;
-    text-shadow: 0 0 5px #fff;
+    background-color: #6BB7E3; /* Slightly darker blue */
 }
